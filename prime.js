@@ -1,6 +1,13 @@
-let l =90;
+let l = 90;
+let flag = true;
+for (let i = 2; i < l; i++) {
+  if (l % i == 0) {
+    flag = false;
+  }
+}
 
-for(let i=0; i<k; i++){
-	if(l % i){
-		console.log("it is prime")
-	}
+if (flag) {
+  console.log("It is prime number");
+} else {
+	console.log("It is not a prime number");
+}

@@ -9,12 +9,12 @@ for (let i = 2; i < l; i++) {
 
 
 
-if(count==2)
+if(flag)
 {
   console.log("It is prime number");
 }
 else
 {
-  console.log("It is not a prime number);
+  console.log("It is not a prime number");
 }
 
